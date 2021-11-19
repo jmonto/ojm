@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: #24a4e4;
+  }
+  body > div {
+    max-width: 1000px;
+    padding-top: 50px;
+  }
+  .exercise {
+    text-align: left;
+    padding-top: 100px;
+    max-width: 500px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h1,
+  h2,
+  h3,
+  span,
+  p,
+  a,
+  div,
+  body,
+  button {
+    font-family: "PT Sans", sans-serif;
+    color: rgb(26, 8, 187);;
+  }
+  
+  .balloon {
+    font-size: 40px;
+  }
+  .exercise {
+    display: none;
+  }
+  .active {
+      display: block;
+    animation-name: popOut;
+    animation-duration: 4s;
+  }
+  button {
+    background: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  @keyframes popOut {
+    from {
+      color: #1a1c1d;
+    }
+    to {
+      color: #fff;
+    }
+  }
+  
